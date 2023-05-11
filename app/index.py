@@ -49,7 +49,6 @@ def isMoreRecentVersion(candidate, reference):
             else:
                 return False
 
-
 # Return current time as 'YYYY-MM-DD HH:MM:SS'
 def getCurrentDateTimeString():
     return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
